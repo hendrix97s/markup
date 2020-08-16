@@ -1,0 +1,24 @@
+<?php
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class TokenSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        //
+        DB::table('tokens')->insert(
+            [
+                'plataforma' => "Melhor Envio",
+                'nome_token' => "Token Api Frete",
+                'token' => "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjFhMGFlMzU1NjJiZDM0NTQ2MjNjNThhMTlhNjdhOWE3Zjc3ZmE1NzE5ZTM5MGY3MzJhNTdjNmFiMWVmOWEwNzdmOWE2MWJjMTBjNjMxMTU2In0.eyJhdWQiOiIxIiwianRpIjoiMWEwYWUzNTU2MmJkMzQ1NDYyM2M1OGExOWE2N2E5YTdmNzdmYTU3MTllMzkwZjczMmE1N2M2YWIxZWY5YTA3N2Y5YTYxYmMxMGM2MzExNTYiLCJpYXQiOjE1OTc1MzE2OTYsIm5iZiI6MTU5NzUzMTY5NiwiZXhwIjoxNjI5MDY3Njk2LCJzdWIiOiJhZDE0NTljZi0zYTI0LTQ4OGQtOGI1My1mMjc0Yjc3MWU3ODciLCJzY29wZXMiOlsiY2FydC1yZWFkIiwiY2FydC13cml0ZSIsImNvbXBhbmllcy1yZWFkIiwiY29tcGFuaWVzLXdyaXRlIiwiY291cG9ucy1yZWFkIiwiY291cG9ucy13cml0ZSIsIm5vdGlmaWNhdGlvbnMtcmVhZCIsIm9yZGVycy1yZWFkIiwicHJvZHVjdHMtcmVhZCIsInByb2R1Y3RzLXdyaXRlIiwicHVyY2hhc2VzLXJlYWQiLCJzaGlwcGluZy1jYWxjdWxhdGUiLCJzaGlwcGluZy1jYW5jZWwiLCJzaGlwcGluZy1jaGVja291dCIsInNoaXBwaW5nLWNvbXBhbmllcyIsInNoaXBwaW5nLWdlbmVyYXRlIiwic2hpcHBpbmctcHJldmlldyIsInNoaXBwaW5nLXByaW50Iiwic2hpcHBpbmctc2hhcmUiLCJzaGlwcGluZy10cmFja2luZyIsImVjb21tZXJjZS1zaGlwcGluZyIsInRyYW5zYWN0aW9ucy1yZWFkIiwidXNlcnMtcmVhZCIsInVzZXJzLXdyaXRlIiwid2ViaG9va3MtcmVhZCIsIndlYmhvb2tzLXdyaXRlIiwibWluaGFzdmVuZGFzOjpjbGllbnRzOnJlYWQiLCJtaW5oYXN2ZW5kYXM6OmNsaWVudHM6d3JpdGUiLCJtaW5oYXN2ZW5kYXM6OnNhbGVzOnJlYWQiLCJtaW5oYXN2ZW5kYXM6OnNhbGVzOndyaXRlIiwibWluaGFzdmVuZGFzOjp3ZWJob29rczpyZWFkIiwibWluaGFzdmVuZGFzOjp3ZWJob29rczp3cml0ZSIsIm1pbmhhc3ZlbmRhczo6c2hpcHBpbmdzOnJlYWQiLCJtaW5oYXN2ZW5kYXM6OnNoaXBwaW5nczp3cml0ZSIsIm1pbmhhc3ZlbmRhczo6Y29uY2lsaWF0aW9uczpyZWFkIiwibWluaGFzdmVuZGFzOjpjb25jaWxpYXRpb25zOndyaXRlIl19.LfyAen7Xl4C6YcWu5fGzKKcDD2LmnW-uWqBIenTxsQSFofYeUOsJLDOYSIPp4Pam2xkHItRvRsrtDAyjT0aUtMpFgNhj8brttehdx1A53CMoQfAWyLabJgoczRLxZutcW38A7j1BNocfTbHCfTWmhw-htOkHdglo4xtJEibnjDrL2I6paQYU_K1sAeXx1iHe5MD7NSySbwFGHd3S4D-UvXEKrkIStOpDxW-cK_aavX6KN_xi-yMtqm3H_VvnunDH2RjQIPjl_MmneQ8oToEzOIdZybqB0MVsy7rPN7peeGgybBQrKQj7ns523RC3_JrIpkFRLajjh4BCBV3fUpx5C2EJU4sZf3csvuBarGguSwXZ1N71yGK0Zo8NbkddiDHUgWDSPIQac2aga5cJ1lu0sgwDJIUpkAj88kMn7B8uRDwjyYMfcw2dLi8R8eyVF9tq4nTOloregAIIM9L8BdTwOv2D46x3phEJWF1OZSHn2jKwQ5H7P7aVAmKjzErxbcrEvVtoaeQM6BxYdiP8MSwARYhZWSo22x-TNpyVTWghO0ppVjfC4AAPaqZWc-QCLsz4aa2zy2UAPxMOeGwCcdJI842mSGByvjz37dKc7NnQK7hRNhjMG_KIj2O2VF0-sVMxO-xzY7y-cXuR3ZUuOx1ARNixs8Ws3rEWdBLOnubn9rM",
+            ]
+        );
+    }
+}
