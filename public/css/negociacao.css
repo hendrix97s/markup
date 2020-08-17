@@ -1,0 +1,338 @@
+.container-fluid {
+    /* border: 1px solid black; */
+    padding: 0;
+}
+
+/* HEAD-NEGOCIACAO */
+.head-negociacao {
+    border-bottom: 1px solid rgb(194, 194, 194);
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 10% 20% 20% 20%;
+}
+.padding {
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.negociacao div {
+    /* border: 1px solid black; */
+    height: 55px;
+}
+
+.pesquisa-item {
+    padding-left: 50px;
+}
+.quantidade-item {
+}
+.add-item {
+    padding-top: 52px;
+}
+.add-item button i {
+    font-size: 18px;
+}
+.cep-origem {
+}
+.cep-destino {
+}
+/* BODY-NEGOCIACAO */
+
+.body-negociacao {
+    /* border: 1px solid black; */
+    height: calc(100vh - 155px);
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.body-negociacao .lista-itens {
+    /* border: 1px solid black; */
+    padding-left: 50px;
+    overflow-y: scroll;
+}
+.body-negociacao .lista-itens .produto label {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.body-negociacao .lista-itens .produto input {
+    margin-top: -1px;
+}
+.body-negociacao .lista-itens .produto {
+    margin-top: 10px;
+    width: 90%;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    /* height: 120px; */
+    border-bottom: 1px solid rgb(92, 92, 92);
+    display: grid;
+
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    /* grid-template-rows: 40px 40px 40px; */
+    grid-gap: 2px;
+}
+
+.body-negociacao .lista-itens .produto div {
+    border-bottom: 1px solid rgb(195, 195, 195);
+    text-align: center;
+}
+
+.img-item {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: 1px solid rgb(155, 155, 155);
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: #fff;
+    margin-top: 28px;
+    border-radius: 4px;
+}
+
+.img-item img {
+    width: 120px;
+}
+.descricao {
+    /* font-size: 12px; */
+    /* padding: 3px; */
+
+    margin-top: 29px;
+    grid-column-start: 3;
+    grid-column-end: 10;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.deleta {
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+
+    margin-top: 25px;
+    /* border: 1px solid black; */
+    grid-column-start: 10;
+    grid-column-end: 11;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.deleta button {
+    width: 61px;
+}
+.quantidade {
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.altura {
+    grid-column-start: 5;
+    grid-column-end: 7;
+
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.largura {
+    grid-column-start: 7;
+    grid-column-end: 9;
+
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.comprimento {
+    grid-column-start: 9;
+    grid-column-end: 11;
+
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.peso {
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.valor-custo {
+    grid-column-start: 5;
+    grid-column-end: 8;
+
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.valor-venda {
+    grid-column-start: 8;
+    grid-column-end: 11;
+
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+/* PAINEL DE CALCULO DE VENDA*/
+.body-negociacao .painel-calculo {
+    padding-left: 20px;
+    padding-top: 38px;
+    border-left: 1px solid rgb(194, 194, 194);
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 40px;
+    grid-gap: 3px;
+    overflow-y: scroll;
+}
+
+.body-negociacao .painel-calculo .head-calculo {
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-start: 1;
+    grid-column-end: 10;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* border: 1px solid black; */
+}
+
+.body-negociacao .painel-calculo .head-calculo .valor-venda-final {
+    font-size: 32px;
+    color: rgb(47, 47, 47);
+}
+
+.body-negociacao .painel-calculo .head-calculo .bandeiras {
+    font-size: 28px;
+    color: rgb(72, 114, 161);
+}
+.body-negociacao .painel-calculo .head-calculo .venda-a-vista {
+    text-align: center;
+    border-right: 1px solid rgb(192, 192, 192);
+}
+.body-negociacao .painel-calculo .head-calculo .venda-a-prazo {
+    text-align: center;
+}
+
+/* BODY CALCULO */
+.body-negociacao .painel-calculo .body-calculo {
+    /* border-top: 1px solid rgb(192, 192, 192);
+    border-bottom: 1px solid rgb(192, 192, 192); */
+    /* padding-top: 10px; */
+    grid-column-start: 1;
+    grid-column-end: 10;
+
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.body-negociacao .painel-calculo .body-calculo .custos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgb(192, 192, 192);
+    border-bottom: 1px solid rgb(192, 192, 192);
+    display: grid;
+    grid-template-columns: 25% 25% 20% 20% 10%;
+    grid-gap: 3px;
+}
+
+.body-negociacao .painel-calculo .body-calculo .custos label {
+    margin-bottom: 0px;
+}
+.body-negociacao .painel-calculo .body-calculo .custos .valor-custo-item {
+    text-align: center;
+}
+
+.body-negociacao .painel-calculo .body-calculo .custos .valor-frete-considerado {
+    text-align: center;
+}
+.body-negociacao .painel-calculo .body-calculo .custos .calcula{
+    margin-top: 24px;
+}
+
+.body-negociacao .painel-calculo .body-calculo .custos .percento-desconto {
+    text-align: center;
+}
+
+.body-negociacao .painel-calculo .body-calculo .custos .check-frete {
+    text-align: center;
+}
+
+/* MARGEM CALCULO */
+.body-negociacao .painel-calculo .body-calculo .margem {
+    display: grid;
+    grid-template-columns:10% 35% 35% 20%;
+    grid-gap: 3px;
+    grid-row-gap: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+.body-negociacao .painel-calculo .body-calculo .margem .dsc-margem{
+    /* border: 1px solid black; */
+    margin-top: 55px;
+}
+.body-negociacao .painel-calculo .body-calculo .margem label{
+    margin-bottom: 0px;
+    text-align: center;
+}
+.body-negociacao .painel-calculo .body-calculo .margem .margem-svp {
+
+}
+.body-negociacao .painel-calculo .body-calculo .margem .margem-svr {
+}
+.body-negociacao .painel-calculo .body-calculo .margem .margem-cs {
+}
+
+/* FRETE CALCULO */
+.body-negociacao .painel-calculo .frete-calculo {
+    border: 1px solid black;
+    grid-row-start: 5;
+    grid-row-end: 9;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .head-negociacao {
+        border-bottom: 1px solid rgb(194, 194, 194);
+        height: 200px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+    .head-negociacao div {
+        /* border: 1px solid black; */
+    }
+    .pesquisa-item {
+        padding-left: 10px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .quantidade-item {
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    .add-item {
+        padding-top: 51px;
+
+        grid-column-start: 5;
+        grid-column-end: 5;
+    }
+
+    .cep-origem {
+        padding-left: 10px;
+        grid-row-start: 2;
+        grid-row-end: 2;
+
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .cep-destino {
+        grid-row-start: 2;
+        grid-row-end: 2;
+
+        grid-column-start: 3;
+        grid-column-end: 6;
+        padding-right: 12px;
+    }
+}

@@ -1,0 +1,63 @@
+.dashoboard{
+    /* background-color: black; */
+    height: calc(100vh - 55px);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 56px calc(100% - 56px);
+}
+
+.menu{
+    width: 55px;
+    border-right: 1px solid rgb(218, 218, 218);
+    height: calc(100vh - 55px);
+    float: left;
+}
+
+.menu ul{
+    /* border:  1px solid rgb(204, 204, 204); */
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.menu ul li{
+    /* border:  1px solid rgb(204, 204, 204); */
+    display: block;
+    height: 55px;
+    line-height: 55px;
+    font-size: 22px;
+    /* background-color: rgb(14, 63, 155); */
+    margin-top: 2px;
+}
+
+
+.menu ul li a{
+    color: rgb(13, 100, 200);
+    /* background-color: rgb(14, 63, 155); */
+}
+
+
+
+
+/* PAGINA INICIAL */
+
+.home{
+    /* font-size: 80px; */
+    /* color: rgb(197, 197, 197); */
+    text-align: center;
+    /* line-height: calc(100vh - 55px); */
+}
+
+.home .axon-sistemas{
+    margin-top:  120px;
+}
+
+.home .axon{
+    font-size: 80px;
+}
+
+.home .sistemas{
+    font-size: 24px;
+    margin-top: -50px;
+    margin-left: 98px;
+}
+

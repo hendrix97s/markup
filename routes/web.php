@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,6 +22,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
+Route::middleware('auth')->namespace('Dashboard')->group(function(){
+    Route::get('/dashboard','DashboardController@index')->name('dashoboard.home');
+    Route::get('/negociacao','NegociacaoController@index')->name('negociacao');
+    Route::get('/produto/{codigo}', 'ProdutoController@getProduto')->name('produto');
+});
 
-Route::get('/home', 'HomeController@index')->name('home');
