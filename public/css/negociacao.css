@@ -176,12 +176,14 @@
 .body-negociacao .painel-calculo {
     padding-left: 20px;
     padding-top: 38px;
+
     border-left: 1px solid rgb(194, 194, 194);
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-rows: 40px;
     grid-gap: 3px;
     overflow-y: scroll;
+
 }
 
 .body-negociacao .painel-calculo .head-calculo {
@@ -265,7 +267,7 @@
     grid-row-gap: 20px;
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     border-bottom: 1px solid rgb(192, 192, 192);
 }
 .body-negociacao .painel-calculo .body-calculo .margem .dsc-margem{
@@ -286,12 +288,106 @@
 
 /* FRETE CALCULO */
 .body-negociacao .painel-calculo .frete-calculo {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    grid-column-start: 1;
+    grid-column-end:10;
     grid-row-start: 5;
     grid-row-end: 9;
 
+    padding-bottom: 100px;
+
 }
 
+.body-negociacao .painel-calculo .frete-calculo .lista-frete{
+
+}
+
+.body-negociacao .painel-calculo .frete-calculo .lista-frete .frete-hr{
+
+    display: grid;
+    grid-template-columns: 20% 34% 18% 18% 10%;
+    grid-gap: 4px;
+    grid-row-gap:4px;
+    grid-template-rows: 50px;
+    margin-top:4px;
+
+}
+.body-negociacao .painel-calculo .frete-calculo .lista-frete-head{
+        border-bottom:  1px solid rgb(192, 192, 192);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 8px;
+        display: grid;
+        grid-template-columns:20% 34% 18% 18% 10%;
+        grid-template-rows: 50px;
+        grid-gap: 4px;
+        
+}
+.txt-calcular-frete{
+    grid-column-start: 1;
+    grid-column-end:4;
+    line-height:50px;
+    text-align:center;
+}
+.btn-calcular-frete{
+    grid-column-start: 4;
+    grid-column-end:6;
+}
+.body-negociacao .painel-calculo .frete-calculo .lista-frete .frete-hr div{
+    text-align:center;
+    line-height:60px;
+
+}
+.body-negociacao .painel-calculo .frete-calculo .lista-frete .frete{
+
+    display: grid;
+    grid-template-columns: 20% 34% 18% 18% 10%;
+    grid-gap: 4px;
+    grid-row-gap:4px;
+    grid-template-rows: 50px;
+    margin-top:4px;
+
+}
+
+/* .body-negociacao .painel-calculo .frete-calculo .lista-frete .frete div{
+    
+} */
+.picture{
+    border: 1px solid rgb(192, 192, 192);
+    /* border-left: 1px solid rgb(192, 192, 192); */
+    line-height: 50px;
+    text-align: center;
+}
+.company{
+    border: 1px solid rgb(192, 192, 192);
+    /* border-left: 1px solid rgb(192, 192, 192); */
+    line-height: 50px;
+    text-align: center;
+}
+.name{
+    border: 1px solid rgb(192, 192, 192);
+    /* border-left: 1px solid rgb(192, 192, 192); */
+    line-height: 50px;
+    text-align: center;
+}
+.discount{
+    border: 1px solid rgb(192, 192, 192);
+    /* border-left: 1px solid rgb(192, 192, 192); */
+    line-height: 50px;
+    text-align: center;
+}
+.custom-price{
+    border: 1px solid rgb(192, 192, 192);
+    /* border-left: 1px solid rgb(192, 192, 192); */
+    line-height: 50px;
+    text-align: center;
+}
+.select-frete{
+    /* border: 1px solid rgb(192, 192, 192); */
+    /* border-left: 1px solid rgb(192, 192, 192); */
+    line-height: 50px;
+    text-align: center;
+}
 @media only screen and (max-width: 600px) {
     .head-negociacao {
         border-bottom: 1px solid rgb(194, 194, 194);
@@ -317,6 +413,7 @@
 
         grid-column-start: 5;
         grid-column-end: 5;
+        
     }
 
     .cep-origem {

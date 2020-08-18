@@ -2156,19 +2156,55 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
+      AuthStr: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjFhMGFlMzU1NjJiZDM0NTQ2MjNjNThhMTlhNjdhOWE3Zjc3ZmE1NzE5ZTM5MGY3MzJhNTdjNmFiMWVmOWEwNzdmOWE2MWJjMTBjNjMxMTU2In0.eyJhdWQiOiIxIiwianRpIjoiMWEwYWUzNTU2MmJkMzQ1NDYyM2M1OGExOWE2N2E5YTdmNzdmYTU3MTllMzkwZjczMmE1N2M2YWIxZWY5YTA3N2Y5YTYxYmMxMGM2MzExNTYiLCJpYXQiOjE1OTc1MzE2OTYsIm5iZiI6MTU5NzUzMTY5NiwiZXhwIjoxNjI5MDY3Njk2LCJzdWIiOiJhZDE0NTljZi0zYTI0LTQ4OGQtOGI1My1mMjc0Yjc3MWU3ODciLCJzY29wZXMiOlsiY2FydC1yZWFkIiwiY2FydC13cml0ZSIsImNvbXBhbmllcy1yZWFkIiwiY29tcGFuaWVzLXdyaXRlIiwiY291cG9ucy1yZWFkIiwiY291cG9ucy13cml0ZSIsIm5vdGlmaWNhdGlvbnMtcmVhZCIsIm9yZGVycy1yZWFkIiwicHJvZHVjdHMtcmVhZCIsInByb2R1Y3RzLXdyaXRlIiwicHVyY2hhc2VzLXJlYWQiLCJzaGlwcGluZy1jYWxjdWxhdGUiLCJzaGlwcGluZy1jYW5jZWwiLCJzaGlwcGluZy1jaGVja291dCIsInNoaXBwaW5nLWNvbXBhbmllcyIsInNoaXBwaW5nLWdlbmVyYXRlIiwic2hpcHBpbmctcHJldmlldyIsInNoaXBwaW5nLXByaW50Iiwic2hpcHBpbmctc2hhcmUiLCJzaGlwcGluZy10cmFja2luZyIsImVjb21tZXJjZS1zaGlwcGluZyIsInRyYW5zYWN0aW9ucy1yZWFkIiwidXNlcnMtcmVhZCIsInVzZXJzLXdyaXRlIiwid2ViaG9va3MtcmVhZCIsIndlYmhvb2tzLXdyaXRlIiwibWluaGFzdmVuZGFzOjpjbGllbnRzOnJlYWQiLCJtaW5oYXN2ZW5kYXM6OmNsaWVudHM6d3JpdGUiLCJtaW5oYXN2ZW5kYXM6OnNhbGVzOnJlYWQiLCJtaW5oYXN2ZW5kYXM6OnNhbGVzOndyaXRlIiwibWluaGFzdmVuZGFzOjp3ZWJob29rczpyZWFkIiwibWluaGFzdmVuZGFzOjp3ZWJob29rczp3cml0ZSIsIm1pbmhhc3ZlbmRhczo6c2hpcHBpbmdzOnJlYWQiLCJtaW5oYXN2ZW5kYXM6OnNoaXBwaW5nczp3cml0ZSIsIm1pbmhhc3ZlbmRhczo6Y29uY2lsaWF0aW9uczpyZWFkIiwibWluaGFzdmVuZGFzOjpjb25jaWxpYXRpb25zOndyaXRlIl19.LfyAen7Xl4C6YcWu5fGzKKcDD2LmnW-uWqBIenTxsQSFofYeUOsJLDOYSIPp4Pam2xkHItRvRsrtDAyjT0aUtMpFgNhj8brttehdx1A53CMoQfAWyLabJgoczRLxZutcW38A7j1BNocfTbHCfTWmhw-htOkHdglo4xtJEibnjDrL2I6paQYU_K1sAeXx1iHe5MD7NSySbwFGHd3S4D-UvXEKrkIStOpDxW-cK_aavX6KN_xi-yMtqm3H_VvnunDH2RjQIPjl_MmneQ8oToEzOIdZybqB0MVsy7rPN7peeGgybBQrKQj7ns523RC3_JrIpkFRLajjh4BCBV3fUpx5C2EJU4sZf3csvuBarGguSwXZ1N71yGK0Zo8NbkddiDHUgWDSPIQac2aga5cJ1lu0sgwDJIUpkAj88kMn7B8uRDwjyYMfcw2dLi8R8eyVF9tq4nTOloregAIIM9L8BdTwOv2D46x3phEJWF1OZSHn2jKwQ5H7P7aVAmKjzErxbcrEvVtoaeQM6BxYdiP8MSwARYhZWSo22x-TNpyVTWghO0ppVjfC4AAPaqZWc-QCLsz4aa2zy2UAPxMOeGwCcdJI842mSGByvjz37dKc7NnQK7hRNhjMG_KIj2O2VF0-sVMxO-xzY7y-cXuR3ZUuOx1ARNixs8Ws3rEWdBLOnubn9rM",
       items: [],
+      lista_fretes: [],
       cep_origem: "13604136",
       //from
-      cep_destino: "",
+      cep_destino: "66070605",
       //to
       //options
       receipt: false,
       own_hand: false,
       //services
-      services: "1.2",
+      services: "",
       //products
       img_url: "",
       codigo_item: "",
@@ -2192,8 +2228,8 @@ __webpack_require__.r(__webpack_exports__);
       custo_itens: 0,
       valor_frete_considerado: 0,
       percentual_desconto: 0,
-      frete_gratis: true,
-      margem_lucro_considerado: 0,
+      frete_gratis: false,
+      margem_lucro_considerado: 30,
       lucro_sobre_venda_percento_vista: 0,
       lucro_sobre_venda_reais_vista: 0,
       lucro_sobre_venda_percento_prazo: 0,
@@ -2232,7 +2268,7 @@ __webpack_require__.r(__webpack_exports__);
       alert(index);
       this.items.splice(index, 1); //OR   this.$delete(this.items,index)
 
-      console.log(this.items);
+      this.calculateList(); // console.log(this.items);
     },
     createList: function createList() {
       this.items.push({
@@ -2250,10 +2286,138 @@ __webpack_require__.r(__webpack_exports__);
 
       });
       this.qtd_item = 1;
+      this.calculateList();
     },
-    calculateList: function calculateList() {},
-    calculateFrete: function calculateFrete() {},
-    selecfrete: function selecfrete() {},
+    calculateList: function calculateList() {
+      if (this.items.length == 0) {
+        alert("Não à produtos na lista a ser calculado!");
+        this.valor_a_vista = 0;
+        this.valor_a_prazo = 0;
+        this.custo_itens = 0;
+        this.valor_frete_considerado = 0;
+        this.percentual_desconto = 0;
+        this.lucro_sobre_venda_percento_vista = 0;
+        this.lucro_sobre_venda_reais_vista = 0;
+        this.lucro_sobre_venda_percento_prazo = 0;
+        this.lucro_sobre_venda_reais_prazo = 0;
+        this.lista_fretes = 0;
+      } else {
+        // this.valor_a_vista
+        // this.valor_a_prazo
+        // this.custo_itens
+        // this.valor_frete_considerado
+        // this.percentual_desconto
+        // this.frete_gratis
+        // this.margem_lucro_considerado
+        // this.lucro_sobre_venda_percento_vista
+        // this.lucro_sobre_venda_reais_vista
+        // this.lucro_sobre_venda_percento_prazo
+        // this.lucro_sobre_venda_reais_prazo
+        var index = 0;
+        var valorCompra = 0;
+        var valorVenda = 0;
+
+        while (index < this.items.length) {
+          valorCompra += this.items[index].qtd * this.items[index].valor_custo;
+          valorVenda += this.items[index].qtd * this.items[index].valor_venda;
+          console.log(this.items[index]);
+          index++;
+        } //OFERECE FRETE GRATIS?
+
+
+        if (this.frete_gratis) {
+          this.custo_itens = valorCompra + this.valor_frete_considerado;
+        } else {
+          this.custo_itens = valorCompra;
+        } //CALCULA VENDA A PRA E VENDA A VISTA
+
+
+        if (this.percentual_desconto <= 0) {
+          this.percentual_desconto = 0;
+        }
+
+        this.valor_a_vista = valorVenda - valorVenda / 100 * this.percentual_desconto;
+        this.valor_a_vista = this.valor_a_vista.toFixed(2);
+        this.valor_a_prazo = valorVenda;
+        this.valor_a_prazo = this.valor_a_prazo.toFixed(2); //MARGENS DE LUCRO SOBRE VENDA
+        // this.margem_lucro_considerado
+        // MAGEM DE CALCULO A VISTA
+
+        this.lucro_sobre_venda_percento_vista = (this.valor_a_vista - this.custo_itens) / this.custo_itens * 100;
+        this.lucro_sobre_venda_percento_vista = this.lucro_sobre_venda_percento_vista.toFixed(2);
+        this.lucro_sobre_venda_reais_vista = this.valor_a_vista - this.custo_itens;
+        this.lucro_sobre_venda_reais_vista = this.lucro_sobre_venda_reais_vista.toFixed(2); // MAGEM DE CALCULO A PRAZO
+
+        this.lucro_sobre_venda_percento_prazo = (this.valor_a_prazo - (this.custo_itens + this.valor_a_prazo / 100 * 4.99)) / this.custo_itens * 100;
+        this.lucro_sobre_venda_percento_prazo = this.lucro_sobre_venda_percento_prazo.toFixed(2);
+        this.lucro_sobre_venda_reais_prazo = this.valor_a_prazo - (this.custo_itens + this.valor_a_prazo / 100 * 4.99);
+        this.lucro_sobre_venda_reais_prazo = this.lucro_sobre_venda_reais_prazo.toFixed(2);
+        this.custo_itens = this.custo_itens.toFixed(2);
+      }
+    },
+    calculaFrete: function calculaFrete() {
+      var _this2 = this;
+
+      var products = [];
+      var index = 0;
+      var URL = "https://melhorenvio.com.br/api/v2/me/shipment/calculate";
+      var config = {
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+          'Authorization': this.AuthStr
+        }
+      };
+      var fretesJSON = [];
+
+      if (this.items.length > 0 && this.cep_destino.length > 0) {
+        while (index < this.items.length) {
+          products.push({
+            "id": this.items[index].codigo,
+            "width": this.items[index].largura,
+            "height": this.items[index].altura,
+            "length": this.items[index].comprimento,
+            "weight": this.items[index].peso,
+            "insurance_value": this.items[index].valor_venda,
+            "quantity": this.items[index].qtd
+          });
+          index++;
+        }
+
+        fretesJSON = {
+          "from": {
+            "postal_code": this.cep_origem
+          },
+          "to": {
+            "postal_code": this.cep_destino
+          },
+          "options": {
+            "receipt": this.receipt,
+            "own_hand": this.own_hand
+          },
+          "services": this.services,
+          "products": products
+        };
+        axios.post(URL, JSON.stringify(fretesJSON), config).then(function (response) {
+          console.log(response.data);
+          _this2.lista_fretes = response.data;
+        })["catch"](function (error) {
+          console.log(error);
+        });
+        console.log(this.lista_fretes);
+      } else {
+        console.log("nao à produtos na lista!");
+      }
+    },
+    selecFrete: function selecFrete(index) {
+      var valorFrete = parseFloat(this.lista_fretes[index].price);
+      this.valor_frete_considerado = parseFloat(valorFrete.toFixed(2));
+      alert("Frete Considerado: " + this.lista_fretes[index].company.name + " R$ " + this.lista_fretes[index].price);
+
+      if (this.freeFrete) {
+        this.calculateList();
+      }
+    },
     freeFrete: function freeFrete() {}
   }
 });
@@ -38316,9 +38480,10 @@ var render = function() {
                 directives: [
                   {
                     name: "model",
-                    rawName: "v-model",
+                    rawName: "v-model.number",
                     value: _vm.custo_itens,
-                    expression: "custo_itens"
+                    expression: "custo_itens",
+                    modifiers: { number: true }
                   }
                 ],
                 staticClass: "form-control",
@@ -38329,7 +38494,10 @@ var render = function() {
                     if ($event.target.composing) {
                       return
                     }
-                    _vm.custo_itens = $event.target.value
+                    _vm.custo_itens = _vm._n($event.target.value)
+                  },
+                  blur: function($event) {
+                    return _vm.$forceUpdate()
                   }
                 }
               })
@@ -38342,9 +38510,10 @@ var render = function() {
                 directives: [
                   {
                     name: "model",
-                    rawName: "v-model",
+                    rawName: "v-model.number",
                     value: _vm.valor_frete_considerado,
-                    expression: "valor_frete_considerado"
+                    expression: "valor_frete_considerado",
+                    modifiers: { number: true }
                   }
                 ],
                 staticClass: "form-control",
@@ -38355,7 +38524,10 @@ var render = function() {
                     if ($event.target.composing) {
                       return
                     }
-                    _vm.valor_frete_considerado = $event.target.value
+                    _vm.valor_frete_considerado = _vm._n($event.target.value)
+                  },
+                  blur: function($event) {
+                    return _vm.$forceUpdate()
                   }
                 }
               })
@@ -38368,9 +38540,10 @@ var render = function() {
                 directives: [
                   {
                     name: "model",
-                    rawName: "v-model",
+                    rawName: "v-model.number",
                     value: _vm.percentual_desconto,
-                    expression: "percentual_desconto"
+                    expression: "percentual_desconto",
+                    modifiers: { number: true }
                   }
                 ],
                 staticClass: "form-control",
@@ -38381,7 +38554,10 @@ var render = function() {
                     if ($event.target.composing) {
                       return
                     }
-                    _vm.percentual_desconto = $event.target.value
+                    _vm.percentual_desconto = _vm._n($event.target.value)
+                  },
+                  blur: function($event) {
+                    return _vm.$forceUpdate()
                   }
                 }
               })
@@ -38430,14 +38606,27 @@ var render = function() {
               })
             ]),
             _vm._v(" "),
-            _vm._m(2)
+            _c("div", { staticClass: "calcula" }, [
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-success",
+                  on: {
+                    click: function($event) {
+                      return _vm.calculateList()
+                    }
+                  }
+                },
+                [_c("i", { staticClass: "fas fa-square-root-alt" })]
+              )
+            ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "margem" }, [
-            _vm._m(3),
+            _vm._m(2),
             _vm._v(" "),
             _c("div", { staticClass: "margem-svp" }, [
-              _vm._m(4),
+              _vm._m(3),
               _vm._v(" "),
               _c("input", {
                 directives: [
@@ -38463,7 +38652,7 @@ var render = function() {
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "margem-svr" }, [
-              _vm._m(5),
+              _vm._m(4),
               _vm._v(" "),
               _c("input", {
                 directives: [
@@ -38516,18 +38705,19 @@ var render = function() {
               })
             ]),
             _vm._v(" "),
-            _vm._m(6),
+            _vm._m(5),
             _vm._v(" "),
             _c("div", { staticClass: "margem-svp" }, [
-              _vm._m(7),
+              _vm._m(6),
               _vm._v(" "),
               _c("input", {
                 directives: [
                   {
                     name: "model",
-                    rawName: "v-model",
+                    rawName: "v-model.number",
                     value: _vm.lucro_sobre_venda_percento_prazo,
-                    expression: "lucro_sobre_venda_percento_prazo"
+                    expression: "lucro_sobre_venda_percento_prazo",
+                    modifiers: { number: true }
                   }
                 ],
                 staticClass: "form-control",
@@ -38538,22 +38728,28 @@ var render = function() {
                     if ($event.target.composing) {
                       return
                     }
-                    _vm.lucro_sobre_venda_percento_prazo = $event.target.value
+                    _vm.lucro_sobre_venda_percento_prazo = _vm._n(
+                      $event.target.value
+                    )
+                  },
+                  blur: function($event) {
+                    return _vm.$forceUpdate()
                   }
                 }
               })
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "margem-svr" }, [
-              _vm._m(8),
+              _vm._m(7),
               _vm._v(" "),
               _c("input", {
                 directives: [
                   {
                     name: "model",
-                    rawName: "v-model",
+                    rawName: "v-model.number",
                     value: _vm.lucro_sobre_venda_reais_prazo,
-                    expression: "lucro_sobre_venda_reais_prazo"
+                    expression: "lucro_sobre_venda_reais_prazo",
+                    modifiers: { number: true }
                   }
                 ],
                 staticClass: "form-control",
@@ -38564,7 +38760,12 @@ var render = function() {
                     if ($event.target.composing) {
                       return
                     }
-                    _vm.lucro_sobre_venda_reais_prazo = $event.target.value
+                    _vm.lucro_sobre_venda_reais_prazo = _vm._n(
+                      $event.target.value
+                    )
+                  },
+                  blur: function($event) {
+                    return _vm.$forceUpdate()
                   }
                 }
               })
@@ -38579,9 +38780,10 @@ var render = function() {
                 directives: [
                   {
                     name: "model",
-                    rawName: "v-model",
+                    rawName: "v-model.number",
                     value: _vm.margem_lucro_considerado,
-                    expression: "margem_lucro_considerado"
+                    expression: "margem_lucro_considerado",
+                    modifiers: { number: true }
                   }
                 ],
                 staticClass: "form-control",
@@ -38592,7 +38794,10 @@ var render = function() {
                     if ($event.target.composing) {
                       return
                     }
-                    _vm.margem_lucro_considerado = $event.target.value
+                    _vm.margem_lucro_considerado = _vm._n($event.target.value)
+                  },
+                  blur: function($event) {
+                    return _vm.$forceUpdate()
                   }
                 }
               })
@@ -38600,7 +38805,72 @@ var render = function() {
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "frete-calculo" })
+        _c("div", { staticClass: "frete-calculo" }, [
+          _c("div", { staticClass: "lista-frete-head" }, [
+            _c("div", { staticClass: "txt-calcular-frete" }, [
+              _vm._v("Efetuar Calculo de Frete")
+            ]),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass: "btn btn-success btn-calcular-frete",
+                on: {
+                  click: function($event) {
+                    return _vm.calculaFrete()
+                  }
+                }
+              },
+              [_c("i", { staticClass: "fas fa-truck" })]
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "lista-frete" },
+            [
+              _vm._m(8),
+              _vm._v(" "),
+              _vm._l(_vm.lista_fretes, function(g_frete, index_f) {
+                return _c("div", { key: g_frete.id, staticClass: "frete" }, [
+                  _c("div", { staticClass: "picture" }, [
+                    _c("img", {
+                      attrs: { src: g_frete.company.picture, width: "60px" }
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "company" }, [
+                    _vm._v(_vm._s(g_frete.name))
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "discount" }, [
+                    _vm._v("R$ " + _vm._s(g_frete.discount))
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "custom-price" }, [
+                    _vm._v("R$ " + _vm._s(g_frete.price))
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "select-frete" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-primary",
+                        on: {
+                          click: function($event) {
+                            return _vm.selecFrete(index_f)
+                          }
+                        }
+                      },
+                      [_c("i", { staticClass: "fas fa-hand-pointer" })]
+                    )
+                  ])
+                ])
+              })
+            ],
+            2
+          )
+        ])
       ])
     ])
   ])
@@ -38619,17 +38889,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "bandeiras" }, [
-      _c("i", { staticClass: "fab fa-cc-mastercard" })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "calcula" }, [
-      _c("button", { staticClass: "btn btn-success" }, [
-        _c("i", { staticClass: "fas fa-square-root-alt" })
-      ])
+      _c("i", { staticClass: "fab fa-cc-mastercard" }),
+      _vm._v(" "),
+      _c("span", { staticStyle: { "font-size": "12px" } }, [_vm._v("- 4,99%")])
     ])
   },
   function() {
@@ -38686,6 +38948,22 @@ var staticRenderFns = [
       _vm._v("\n              Lucro sobre\n              "),
       _c("br"),
       _vm._v("venda R$\n            ")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "frete-hr" }, [
+      _c("div", { staticClass: "logo" }, [_vm._v("Transp")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "Transp" }, [_vm._v("Serviço")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "Desconto" }, [_vm._v("Desconto")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "Preço" }, [_vm._v("Valor Frete")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "btn-frete" })
     ])
   }
 ]
